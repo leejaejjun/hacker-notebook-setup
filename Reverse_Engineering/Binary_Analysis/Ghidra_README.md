@@ -36,5 +36,5 @@
 - Homebrew로 설치한 경우 다음 명령어를 통해서 새로운 버전이 나온 경우 업그레이드 가능 `brew outdated && brew upgrade`
 
 ## 관련 URL
-[Ghidra 공식 웹사이트](https://ghidra-sre.org)
+[Ghidra 공식 웹사이트](https://ghidra-sre.org)  
 [리버싱 입문자를 위한 Ghidra 튜토리얼](https://blog.hspace.io/posts/Ghidra-tutorial-for-reversing-beginners/)
