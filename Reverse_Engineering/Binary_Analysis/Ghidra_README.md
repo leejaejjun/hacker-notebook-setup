@@ -39,7 +39,10 @@
 
 ## 주의 사항
 - 확장 없이 ghidra로 파이썬 스크립트를 작성하기 위해선 기존 CPython 문법이 아닌 Jython으로 작성해야 합니다.
-- Homebrew로 설치한 경우 다음 명령어를 통해서 새로운 버전이 나온 경우 업그레이드 가능 `brew outdated && brew upgrade`
+- Homebrew로 설치한 경우 다음 명령어를 통해서 새로운 버전이 나온 경우 업그레이드 가능 
+```bash
+brew outdated && brew upgrade
+```
 
 ## 관련 URL
 [Ghidra 공식 웹사이트](https://ghidra-sre.org)  
