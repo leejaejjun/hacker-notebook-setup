@@ -18,9 +18,15 @@
 ## 설치(접속) 방법
 ### homebrew로 설치한 경우
 1. **Ghidra 설치 방법**
-   - 터미널에 다음 명령어를 입력하여 설치합니다. `brew install --cask ghidra`
+   - 터미널에 다음 명령어를 입력하여 설치합니다. 
+   ```bash
+   brew install --cask ghidra
+   ```
 2. **Ghidra 실행 방법**
-   - 터미널에 다음 명령어를 입력하여 실행합니다. `ghidraRun`
+   - 터미널에 다음 명령어를 입력하여 실행합니다. 
+   ```bash
+   ghidraRun
+   ```
 
 ### 압축파일 다운로드 한 경우
 1. **파일 압축 해제**
