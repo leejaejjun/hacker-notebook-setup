@@ -46,4 +46,4 @@ brew outdated && brew upgrade
 
 ## 관련 URL
 [Ghidra 공식 웹사이트](https://ghidra-sre.org)  
-[리버싱 입문자를 위한 Ghidra 튜토리얼](https://blog.hspace.io/posts/Ghidra-tutorial-for-reversing-beginners/)
+[리버싱 입문자를 위한 Ghidra 튜토리얼](https://blog.hspace.io/posts/Ghidra-tutorial-for-reversing-beginners/)  
