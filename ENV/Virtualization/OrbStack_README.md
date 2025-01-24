@@ -28,6 +28,7 @@
 1. **Orb Stack 다운로드 및 설치:**
    - [Orb Stack 다운로드 웹사이트](https://orbstack.dev/download)에서 설치 파일을 다운로드 합니다.
    - 설치 파일을 실행하고 화면 지시에 따라 설치를 완료합니다.
+   
 2. **Orb Stack 실행:**
    - 어플리케이션 폴더에서 `Orb Stack`을 실행합니다.
 
