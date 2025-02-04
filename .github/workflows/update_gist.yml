@@ -1,0 +1,60 @@
+name: Update Gist Recommendations
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "Choose recommend or disrecommend"
+        required: true
+        default: "recommend"
+        type: choice
+        options:
+          - recommend
+          - disrecommend
+
+jobs:
+  update-gist:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Fetch Gist Data
+        run: |
+          curl -H "Authorization: token ${{ secrets.GIST_SECRET }}" \
+               -H "Accept: application/vnd.github.v3+json" \
+               https://api.github.com/gists/221a9f3b01f44e36df6a729190445b41 > gist.json
+
+      - name: Update Recommendation Count
+        run: |
+          import json
+
+          with open("gist.json") as f:
+              data = json.load(f)
+
+          # 기존 Gist 데이터 가져오기
+          raw_url = data["files"]["recommendation.json"]["raw_url"]
+          response = requests.get(raw_url)
+          counts = response.json()
+
+          # 입력 값에 따라 추천/비추천 증가
+          action = "${{ github.event.inputs.action }}"
+          if action == "recommend":
+              counts["recommend"] += 1
+          else:
+              counts["disrecommend"] += 1
+
+          # 수정된 데이터 저장
+          updated_content = json.dumps(counts, indent=2)
+
+          requests.patch(
+              f"https://api.github.com/gists/YOUR_GIST_ID",
+              headers={"Authorization": "token ${{ secrets.GIST_SECRET }}"},
+              json={"files": {"recommendation.json": {"content": updated_content}}}
+          )
+
+        env:
+          PYTHONUNBUFFERED: "1"
+        shell: python
+
