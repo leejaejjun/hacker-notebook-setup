@@ -39,15 +39,3 @@ The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and
 ## 관련 URL
 - [CyberChef 공식 웹사이트](https://gchq.github.io/CyberChef/)
 - [CyberChef GitHub 페이지](https://github.com/gchq/CyberChef)
-
-## 추천/비추천 시스템
-
-추천 👍 : ![추천](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/leejaejjun/221a9f3b01f44e36df6a729190445b41/raw/recommendation.json&label=👍%20추천&color=green)
-
-비추천 👎 : ![비추천](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/leejaejjun/221a9f3b01f44e36df6a729190445b41/raw/recommendation.json&label=👎%20비추천&color=red)
-
-## 추천/비추천 시스템
-
-[![추천](https://img.shields.io/badge/👍-추천-green)](https://github.com/leejaejjun/hacker-notebook-setup/actions/workflows/update_gist.yml?workflow_dispatch=true&inputs[action]=recommend)
-
-[![비추천](https://img.shields.io/badge/👎-비추천-red)](https://github.com/leejaejjun/hacker-notebook-setup/actions/workflows/update_gist.yml?workflow_dispatch=true&inputs[action]=disrecommend)
