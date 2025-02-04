@@ -48,6 +48,6 @@ The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and
 
 ## 추천/비추천 시스템
 
-[![추천](https://img.shields.io/badge/👍-추천-green)](https://github.com/YOUR_REPO/actions/workflows/update_gist.yml?workflow_dispatch=true&inputs[action]=recommend)
+[![추천](https://img.shields.io/badge/👍-추천-green)](https://github.com/leejaejjun/hacker-notebook-setup/actions/workflows/update_gist.yml?workflow_dispatch=true&inputs[action]=recommend)
 
-[![비추천](https://img.shields.io/badge/👎-비추천-red)](https://github.com/YOUR_REPO/actions/workflows/update_gist.yml?workflow_dispatch=true&inputs[action]=disrecommend)
+[![비추천](https://img.shields.io/badge/👎-비추천-red)](https://github.com/leejaejjun/hacker-notebook-setup/actions/workflows/update_gist.yml?workflow_dispatch=true&inputs[action]=disrecommend)
