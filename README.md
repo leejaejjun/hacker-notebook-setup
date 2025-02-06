@@ -7,56 +7,84 @@
 이 가이드는 다음을 목표로 합니다:
 - 초보 사용자가 필수 해킹 도구를 설치할 수 있도록 지원.
 - 효율적인 설정을 위한 체크리스트 제공.
-- 환경 수동 설정의 부담을 줄임.
 
 ---
 
 ## 추천 도구 분류 및 주요 기능
 
-| 분류               | 도구명            | 기능                              | OS | 권장 설치 프로그램|
+| 분류               | 도구명            | 기능                              | 사용 가능 OS | 권장 설치|
 |--------------------|------------------|----------------------------|---------------------|--------
-| 시스템 및 개발 도구    | Terminal            | macOS 명령줄 인터페이스.        |MAC |✅
-| 시스템 및 개발 도구    | Homebrew         | 패키지 관리 도구.                 |MAC
-| 시스템 및 개발 도구    | Visual Studio Code | 코드 편집기.                   |MAC
-| 시스템 및 개발 도구    | C                | 시스템 프로그래밍 언어.           |MAC
-| 시스템 및 개발 도구    | Python           | 범용 프로그래밍 언어.             |MAC
-| 시스템 및 개발 도구    | Docker           | 컨테이너 기반 가상화 도구.        |MAC
-| 시스템 및 개발 도구    | Orb Stack           | 컨테이너 기반 가상화 도구.        |MAC
-| 네트워크 도구         | Shodan           | 네트워크 장치 검색 도구.          |MAC
-| 네트워크 도구         | Censys           | 공개 네트워크 검색 도구.          |MAC
-| 네트워크 도구         | Nmap             | 네트워크 포트 스캐너.             |MAC
-| 네트워크 도구         | RustScan         | 빠른 포트 스캐너.                 |MAC
-| 네트워크 도구         | Wireshark        | 패킷 분석 도구.                   |MAC
-| 익스플로잇(PWN)      | GDB              | 디버깅 도구.                      |
-| 익스플로잇(PWN)     | pwndbg           | Gdb 확장 플러그인.                |
-| 익스플로잇(PWN)     | gef           | Gdb 확장 플러그인.                |
-| 익스플로잇(PWN)     | windbg           | 윈도우 전용 디버거.                |
-| 웹 테스트 도구      | Burp Suite       | 웹 애플리케이션 테스트 도구.      |MAC
-| 웹 테스트 도구      | OWASP ZAP        | 웹 보안 테스트 도구.              |MAC
-| 웹 테스트 도구      | Fiddler          | HTTP 트래픽 디버깅 도구.          |MAC
-| 암호화 도구         | Sage             | 수학 및 암호화 라이브러리.        |MAC
-| 암호화 도구         | NumPy            | 데이터 분석 라이브러리.           |MAC
-| 암호화 도구         | PyCryptodome     | 암호화 라이브러리.                |MAC
-| 암호화 도구         | CyberChef        | 데이터 변환 도구.                 |MAC
-| 리버스 엔지니어링    | IDA              | 바이너리 분석 도구.               |MAC
-| 리버스 엔지니어링    | Ghidra           | 리버스 엔지니어링 도구.           |MAC
-| 리버스 엔지니어링    | Binary Ninja     | 바이너리 분석 및 수정 도구.       |MAC
-| 리버스 엔지니어링    | 010 Editor       | 바이너리 편집기.                  |MAC
-| 리버스 엔지니어링    | wxMEdit       | 바이너리 편집기.                  |
-| 리버스 엔지니어링    | Hex Fiend       | 바이너리 편집기.                  |
-| 리버스 엔지니어링    | Cheat Engine       | 메모리 에딧에 특화된 디버거.              |
-| 리버스 엔지니어링    | dnSpy       | .NET 디컴파일러.            |
-| 리버스 엔지니어링    | x64dbg       | 오픈소스 윈도우 디버거.           |
-| 리버스 엔지니어링    | Frida       | 범용 후킹 프레임워크.        |MAC
-| 포렌식              | Autopsy          | 파일 시스템 분석 도구.            |MAC
-| 포렌식              | Volatility       | 메모리 분석 도구.                 |MAC
+| 시스템 및 개발 도구    | Terminal            | 명령줄 인터페이스       |M W L | M W L
+| 시스템 및 개발 도구    | Homebrew         | 패키지 관리 도구.                 |M L    | M
+| 시스템 및 개발 도구    | Visual Studio Code | 코드 편집기.                   |M W L  | M W L
+| 시스템 및 개발 도구    | C                | 시스템 프로그래밍 언어.           |M W L    | M W L
+| 시스템 및 개발 도구    | Python           | 범용 프로그래밍 언어.             |M W L | M W L
+| 시스템 및 개발 도구    | Docker           | 컨테이너 기반 가상화 도구.        |M W L | M W L
+| 시스템 및 개발 도구    | Orb Stack        | 컨테이너 기반 가상화 도구.        |M  | M
+| 시스템 및 개발 도구    | UTM              | 추가 바람                     |M  | M
+| 시스템 및 개발 도구    | VMware           | 추가 바람                     |M W | W
+| 시스템 및 개발 도구    | virtual box      | 추가 바람          |M W L | 
+| 시스템 및 개발 도구    | WSL              | 추가 바람       | W | W
+| 시스템 및 개발 도구    | virt-manager     | 추가 바람       | L | L
+|
+| 네트워크 도구         | NC               | 추가 바람                     | M L | M L
+| 네트워크 도구         | Shodan           | 네트워크 장치 검색 도구.         | web | 
+| 네트워크 도구         | Censys           | 공개 네트워크 검색 도구.         | web | 
+| 네트워크 도구         | Nmap             | 네트워크 포트 스캐너.            | M W L | 
+| 네트워크 도구         | RustScan         | 빠른 포트 스캐너.               | M W L | 
+| 네트워크 도구         | Wireshark        | 패킷 분석 도구.                | M W L | M W L
+|
+| 익스플로잇(PWN)      | GDB              | 디버깅 도구.                   | M W L | L
+| 익스플로잇(PWN)     | pwndbg            | LLDB, Gdb 확장 플러그인.       | M L | L
+| 익스플로잇(PWN)     | gef               | Gdb 확장 플러그인.              | L | 
+| 익스플로잇(PWN)     | pwntools          |추가 바람                      | M W L | M W L
+| 익스플로잇(PWN)     | ROPGaget          |추가 바람                      | M W L | L
+| 익스플로잇(PWN)     | rp++              |추가 바람                      | M W L | L
+| 
+| 웹 테스트 도구      | Burp Suite       | 웹 애플리케이션 테스트 도구.        |M W L | M W L
+| 웹 테스트 도구      | Fiddler          | HTTP 트래픽 디버깅 도구.          |M W L | W
+| 웹 테스트 도구      | CURL             | 추가 바람                            |M W L | M W L
+| 웹 테스트 도구      | sqlmap           | 추가 바람                              |M W L |                 
+| 웹 테스트 도구      | webhook          | 추가 바람                                |web | web
+|
+| 암호화 도구         | Sage             | 수학 및 암호화 라이브러리.        | M L | M L
+| 암호화 도구         | NumPy            | 데이터 분석 라이브러리.           | M W L | M W L
+| 암호화 도구         | PyCryptodome     | 암호화 라이브러리.               | M W L | M W L
+| 암호화 도구         | CyberChef        | 데이터 변환 도구.               |web | web
+|
+| 리버스 엔지니어링    | IDA              | 바이너리 분석 도구.                | M W L  | M W L
+| 리버스 엔지니어링    | Ghidra           | 리버스 엔지니어링 도구.             | M W L | 
+| 리버스 엔지니어링    | 010 Editor       | 바이너리 편집기.                  | M W L | 
+| 리버스 엔지니어링    | HxD              | 바이너리 편집기.                  | W     | W
+| 리버스 엔지니어링    | wxMEdit          | 바이너리 편집기.                  | M W L | 
+| 리버스 엔지니어링    | Hex Fiend        | 바이너리 편집기.                  | M     | M
+| 리버스 엔지니어링    | Cheat Engine     | 메모리 에딧에 특화된 디버거.         | M W L | M W L
+| 리버스 엔지니어링    | dnSpy            | .NET 디컴파일러.                 | W     | 
+| 리버스 엔지니어링    | x64dbg           | 오픈소스 윈도우 디버거.             | W     | W
+| 리버스 엔지니어링    | windbg           | 윈도우 전용 디버거.                | W     | W
+| 리버스 엔지니어링    | Frida            | 범용 후킹 프레임워크.               | M W L | 
+| 리버스 엔지니어링    | z3               | 추가바람                         | M W L | 
+|
+| 포렌식             | Autopsy          | 파일 시스템 분석 도구.            |M
+| 포렌식             | Volatility       | 메모리 분석 도구.                |M
+| 포렌식             | BrowsingHistoryView       |        |W
+| 포렌식             | DB Browser for SQLite       |      |W
+| 포렌식             | Encase           |                   |W
+| 포렌식             | FTK Imager       |               |W
+| 포렌식             | NTFS Log Tracker |                 |W
+| 포렌식             | REGA             |               |W
+|
+| 블럭체인           | Foundry | 임예준 추가바람                           | M W L  | L
 
 ---
-
-
-## 작성자
-**이재준** (koreant@hspace.io)  
-작성일: 2025년 1월 1일
+##논란
+| 분류               | 도구명            | 기능                              | OS | 권장 설치 프로그램|
+|--------------------|------------------|----------------------------|---------------------|--------
+| 웹 테스트 도구        | DevTools       | 추가 바람                 | 추후 토론 필요
+| 리버스 엔지니어링      |request
+| 익스플로잇(PWN)      | LLDB            | 디버깅 도구.               | L
+| 익스플로잇(PWN)      | 앵거             | 추가바람                   | L
+| 
 
 ---
 
