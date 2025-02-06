@@ -26,32 +26,27 @@
 | 시스템 및 개발 도구    | virtual box      | 추가 바람          |M W L | 
 | 시스템 및 개발 도구    | WSL              | 추가 바람       | W | W
 | 시스템 및 개발 도구    | virt-manager     | 추가 바람       | L | L
-|
 | 네트워크 도구         | NC               | 추가 바람                     | M L | M L
 | 네트워크 도구         | Shodan           | 네트워크 장치 검색 도구.         | web | 
 | 네트워크 도구         | Censys           | 공개 네트워크 검색 도구.         | web | 
 | 네트워크 도구         | Nmap             | 네트워크 포트 스캐너.            | M W L | 
 | 네트워크 도구         | RustScan         | 빠른 포트 스캐너.               | M W L | 
 | 네트워크 도구         | Wireshark        | 패킷 분석 도구.                | M W L | M W L
-|
 | 익스플로잇(PWN)      | GDB              | 디버깅 도구.                   | M W L | L
 | 익스플로잇(PWN)     | pwndbg            | LLDB, Gdb 확장 플러그인.       | M L | L
 | 익스플로잇(PWN)     | gef               | Gdb 확장 플러그인.              | L | 
 | 익스플로잇(PWN)     | pwntools          |추가 바람                      | M W L | M W L
 | 익스플로잇(PWN)     | ROPGaget          |추가 바람                      | M W L | L
 | 익스플로잇(PWN)     | rp++              |추가 바람                      | M W L | L
-| 
 | 웹 테스트 도구      | Burp Suite       | 웹 애플리케이션 테스트 도구.        |M W L | M W L
 | 웹 테스트 도구      | Fiddler          | HTTP 트래픽 디버깅 도구.          |M W L | W
 | 웹 테스트 도구      | CURL             | 추가 바람                            |M W L | M W L
 | 웹 테스트 도구      | sqlmap           | 추가 바람                              |M W L |                 
 | 웹 테스트 도구      | webhook          | 추가 바람                                |web | web
-|
 | 암호화 도구         | Sage             | 수학 및 암호화 라이브러리.        | M L | M L
 | 암호화 도구         | NumPy            | 데이터 분석 라이브러리.           | M W L | M W L
 | 암호화 도구         | PyCryptodome     | 암호화 라이브러리.               | M W L | M W L
 | 암호화 도구         | CyberChef        | 데이터 변환 도구.               |web | web
-|
 | 리버스 엔지니어링    | IDA              | 바이너리 분석 도구.                | M W L  | M W L
 | 리버스 엔지니어링    | Ghidra           | 리버스 엔지니어링 도구.             | M W L | 
 | 리버스 엔지니어링    | 010 Editor       | 바이너리 편집기.                  | M W L | 
@@ -64,7 +59,6 @@
 | 리버스 엔지니어링    | windbg           | 윈도우 전용 디버거.                | W     | W
 | 리버스 엔지니어링    | Frida            | 범용 후킹 프레임워크.               | M W L | 
 | 리버스 엔지니어링    | z3               | 추가바람                         | M W L | 
-|
 | 포렌식             | Autopsy          | 파일 시스템 분석 도구.            |M
 | 포렌식             | Volatility       | 메모리 분석 도구.                |M
 | 포렌식             | BrowsingHistoryView       |        |W
@@ -73,7 +67,6 @@
 | 포렌식             | FTK Imager       |               |W
 | 포렌식             | NTFS Log Tracker |                 |W
 | 포렌식             | REGA             |               |W
-|
 | 블럭체인           | Foundry | 임예준 추가바람                           | M W L  | L
 
 ---
