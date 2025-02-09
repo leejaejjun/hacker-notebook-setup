@@ -21,9 +21,13 @@
    ```
 
 ## 접속 화면
-![접속 화면 설명](nmap.png)
-
-> *이미지를 추가하려면, 해당 이미지를 프로젝트 디렉토리에 저장하고 파일 이름을 위 링크에 맞게 설정하세요.*
+```
+Nmap version 7.95 ( https://nmap.org )
+Platform: arm-apple-darwin23.6.0
+Compiled with: liblua-5.4.7 openssl-3.4.0 libssh2-1.11.1 libz-1.2.12 libpcre2-10.44 nmap-libpcap-1.10.4 nmap-libdnet-1.12 ipv6
+Compiled without:
+Available nsock engines: kqueue poll select
+```
 
 ## 주의 사항
 - Nmap 사용 시 네트워크 관리자와의 사전 협의가 필요합니다.

@@ -21,6 +21,23 @@ NumPy는 Python에서 고성능 수치 연산과 다차원 배열 처리를 지�
    ```bash
    python -c "import numpy; print(numpy.__version__)"
    ```
+   ```bash
+   pip show numpy
+   ```
+
+## 접속 화면
+```
+>>> pip show numpy
+Name: numpy
+Version: 1.26.4
+Summary: Fundamental package for array computing in Python
+Home-page: https://numpy.org
+Author: Travis E. Oliphant et al.
+Author-email:
+License: Copyright (c) 2005-2023, NumPy Developers.
+All rights reserved.
+...
+```
 
 ## 주의 사항
 - NumPy는 최신 Python 버전과 호환되도록 주기적으로 업데이트됩니다.

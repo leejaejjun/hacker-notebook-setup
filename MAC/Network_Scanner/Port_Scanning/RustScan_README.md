@@ -21,9 +21,21 @@
    ```
 
 ## 접속 화면
-![접속 화면 설명](rustscan.png)
+```
+.----. .-. .-. .----..---.  .----. .---.   .--.  .-. .-.
+| {}  }| { } |{ {__ {_   _}{ {__  /  ___} / {} \ |  `| |
+| .-. \| {_} |.-._} } | |  .-._} }\     }/  /\  \| |\  |
+`-' `-'`-----'`----'  `-'  `----'  `---' `-'  `-'`-' `-'
+The Modern Day Port Scanner.
+________________________________________
+: http://discord.skerritt.blog         :
+: https://github.com/RustScan/RustScan :
+ --------------------------------------
+I don't always scan ports, but when I do, I prefer RustScan.
 
-> *이미지를 추가하려면, 해당 이미지를 프로젝트 디렉토리에 저장하고 파일 이름을 위 링크에 맞게 설정하세요.*
+[~] The config file is expected to be at "/Users/arkea/.rustscan.toml"
+[!] No IPs could be resolved, aborting scan.
+```
 
 ## 주의 사항
 - RustScan은 Nmap과 함께 사용해야 더 강력한 기능을 발휘합니다.

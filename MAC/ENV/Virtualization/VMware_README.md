@@ -33,6 +33,8 @@ brew install --cask vmware-fusion
 ## 설치(접속) 확인
 VMware를 실행한 후, 가상 머신을 생성하여 운영 체제가 정상적으로 부팅되는지 확인하세요.
 
+![접속 화면 설명](VMWareFusion.png)
+
 ## 주의 사항
 - VMware Fusion은 유료 소프트웨어이며, 개인 사용자(비상업적 용도)에 한해 무료로 사용이 가능합니다.
 - macOS에서 가상 머신을 실행하려면 Virtualization이 활성화되어 있어야 합니다.

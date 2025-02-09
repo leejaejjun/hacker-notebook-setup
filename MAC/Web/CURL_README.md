@@ -22,9 +22,12 @@
    ```
 
 ## 접속 화면
-![접속 화면 설명](curl.png)
-
-> *이미지를 추가하려면, 해당 이미지를 프로젝트 디렉토리에 저장하고 파일 이름을 위 링크에 맞게 설정하세요.*
+```
+curl 8.11.1 (arm64-apple-darwin20.0.0) libcurl/8.11.1 OpenSSL/3.0.15 (SecureTransport) zlib/1.2.13 zstd/1.5.6 libssh2/1.11.1 nghttp2/1.57.0
+Release-Date: 2024-12-11
+Protocols: dict file ftp ftps gopher gophers http https imap imaps ipfs ipns mqtt pop3 pop3s rtsp scp sftp smb smbs smtp smtps telnet tftp ws wss
+Features: alt-svc AsynchDNS GSS-API HSTS HTTP2 HTTPS-proxy IPv6 Kerberos Largefile libz MultiSSL NTLM SPNEGO SSL threadsafe TLS-SRP UnixSockets zstd
+```
 
 ## 주의 사항
 - 네트워크 요청이 HTTPS로 전달될 경우, SSL 인증서 관련 설정이 필요할 수 있음.
