@@ -36,6 +36,8 @@ docker --version
 Docker version 20.10.24, build abc123
 ```
 
+![접속 화면 설명](Docker.png)
+
 ## 주의 사항
 - Docker Desktop을 실행하기 전에 **Docker Daemon**이 시작되었는지 확인하세요.
 - macOS에서 Docker를 실행하려면 Virtualization이 활성화되어 있어야 합니다.

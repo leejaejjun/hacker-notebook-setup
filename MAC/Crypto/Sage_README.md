@@ -26,3 +26,4 @@ SageMath는 수학 및 암호학 연산을 수행하기 위한 오픈소스 소�
 ## 관련 URL
 - [SageMath 공식 웹사이트](https://www.sagemath.org/)
 - [SageMath 공식 문서](https://doc.sagemath.org/)
+- [SageMath 튜토리얼](https://blog.hspace.io/posts/SageMath-tutorial-1/)

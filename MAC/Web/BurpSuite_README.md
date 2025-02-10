@@ -15,10 +15,13 @@
 1. **공식 웹사이트에서 다운로드하여 설치.**
    [Burp Suite 공식 웹사이트](https://portswigger.net/burp)
 
+2. **homebrew를 이용하여 설치**
+   - 아래 명령어를 이용하여 설치
+   ```bash
+   brew install burp-bsuite
+   ```
 ## 접속 화면
-![접속 화면 설명](burp_suite.png)
-
-> *이미지를 추가하려면, 해당 이미지를 프로젝트 디렉토리에 저장하고 파일 이름을 위 링크에 맞게 설정하세요.*
+![접속 화면 설명](BurpSuite.png)
 
 ## 주의 사항
 - Burp Suite는 일부 기능이 유료로 제공됩니다.
