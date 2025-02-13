@@ -38,6 +38,7 @@
 | 익스플로잇(PWN)     | ROPGaget          |	ROP 체인 생성 도구                     |
 | 익스플로잇(PWN)     | rp++              |ROP 체인 생성 도구 (고급)                      |
 | 웹 테스트 도구      | Burp Suite       | 웹 애플리케이션 테스트 도구.        |✅
+| 웹 테스트 도구      | OWASP_ZAP       | 웹 애플리케이션 테스트 도구.        |
 | 웹 테스트 도구      | Fiddler          | HTTP 트래픽 디버깅 도구.          |
 | 웹 테스트 도구      | CURL             | 명령줄 기반 HTTP 요청 도구           |✅
 | 웹 테스트 도구      | sqlmap           | 	SQL 인젝션 자동화 도구              |
@@ -55,7 +56,7 @@
 | 리버스 엔지니어링    | z3               | SMT 솔버	                         |  
 | 포렌식             | Autopsy          | 파일 시스템 분석 도구.                     |
 | 포렌식             | Volatility       | 메모리 분석 도구.                         |
-| 블럭체인            | Foundry | 스마트 컨트랙트 개발 및 테스트 도구                                    | 
+| 블럭체인            | [Foundry](https://github.com/hspace-io/hacker-notebook-setup/tree/main/MAC/Blockchain/foundry.md) | 스마트 컨트랙트 개발 및 테스트 도구                                    | 
 
 
 ---
