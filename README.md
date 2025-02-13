@@ -9,6 +9,15 @@
 - 효율적인 설정을 위한 체크리스트 제공.
 
 ---
+## 권장기준
+권장 기준은 지극히 HSPACE 해킹팀 knights 와 koreant의 의견입니다. 
+|약자 | OS명
+|--|--
+M | macOS
+W | WINDOW
+L | LINUX
+
+---
 
 ## 추천 도구 분류 및 주요 기능
 
@@ -68,6 +77,7 @@
 | 포렌식             | NTFS Log Tracker | NTFS 파일 시스템 저널 분석 도구             |W
 | 포렌식             | REGA             | 레지스트리 분석 도구.                      |W | W
 | 블럭체인            | Foundry | 스마트 컨트랙트 개발 및 테스트 도구                                    | M W L  | L
+
 
 ---
 
