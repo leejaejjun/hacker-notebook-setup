@@ -11,11 +11,11 @@
 ---
 ## 권장기준
 권장 기준은 지극히 HSPACE 해킹팀 knights 와 koreant의 의견입니다. 
-|약자 | OS명
-|--|--
-M | macOS
-W | WINDOW
-L | LINUX
+|약자 | OS명| 진행사항
+|--|--|--
+M | macOS | 필수도구 완료
+W | WINDOW| 필수도구 완료
+L | LINUX | 업데이트 중
 
 ---
 
