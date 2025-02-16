@@ -16,7 +16,7 @@
 | 네트워크 도구         | [Censys](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/NET/Censys.md)           | 공개 네트워크 검색 도구.         | web | 
 | 네트워크 도구         | Nmap             | 네트워크 포트 스캐너.            |  
 | 네트워크 도구         | RustScan         | 빠른 포트 스캐너.               | 
-| 네트워크 도구         | [Wireshark](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/NET/Wireshark.md)        | 패킷 분석 도구.                | ✅
+| 네트워크 도구         | [Wireshark](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/NET/wireshark.md)        | 패킷 분석 도구.                | ✅
 | 익스플로잇(PWN)      | GDB              | 디버깅 도구.                   |
 | 익스플로잇(PWN)      | [gef](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/PWN/gef.md)              | 디버깅 도구.                   |  
 | 익스플로잇(PWN)     | [pwntools](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/PWN/pwntools.md)          |익스플로잇 개발 라이브러리	                      | ✅

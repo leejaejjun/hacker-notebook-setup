@@ -11,11 +11,11 @@
 ---
 ## 권장기준
 권장 기준은 지극히 HSPACE 해킹팀 knights 와 koreant의 의견입니다. 
-|약자 | OS명| 진행사항
-|--|--|--
-M | [macOS](https://github.com/hspace-io/hacker-notebook-setup/tree/main/MAC) | 필수도구 완료
-W | [WINDOW](https://github.com/hspace-io/hacker-notebook-setup/tree/main/WINDOW)| 필수도구 완료
-L | [LINUX](https://github.com/hspace-io/hacker-notebook-setup/tree/main/LINUX) | 업데이트 중
+|약자 | OS명| 진행사항 | 비고
+|--|--|--|--
+M | [macOS](https://github.com/hspace-io/hacker-notebook-setup/tree/main/MAC) | 32/42 |필수도구 완료 
+W | [WINDOW](https://github.com/hspace-io/hacker-notebook-setup/tree/main/WINDOW)| 30/46 |필수도구 완료
+L | [LINUX](https://github.com/hspace-io/hacker-notebook-setup/tree/main/LINUX) | 0/37|업데이트 중
 
 ---
 
