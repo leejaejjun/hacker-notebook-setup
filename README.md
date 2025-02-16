@@ -9,8 +9,8 @@
 - 효율적인 설정을 위한 체크리스트 제공.
 
 ---
-## 권장기준
-권장 기준은 지극히 HSPACE 해킹팀 knights 와 koreant의 의견입니다. 
+## 가이드
+권장 설치은 지극히 HSPACE 해킹팀 knights 와 koreant의 의견입니다. 
 |약자 | OS명| 진행사항 | 비고
 |--|--|--|--
 M | [macOS](https://github.com/hspace-io/hacker-notebook-setup/tree/main/MAC) | 32/42 |필수도구 완료 
