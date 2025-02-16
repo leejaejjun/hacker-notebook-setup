@@ -5,13 +5,13 @@
 | 분류               | 도구명            | 기능                              | 사용 가능 OS 
 |--------------------|------------------|----------------------------|---------------------
 | 시스템 및 개발 도구    | [Terminal](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/ENV/Terminal.md)                 | 명령줄 인터페이스       |✅
-| 시스템 및 개발 도구    | [Visual Studio Code](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/ENV/C.md) | 코드 편집기.                   |✅
+| 시스템 및 개발 도구    | [Visual Studio Code](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/ENV/VSCode.md) | 코드 편집기.                   |✅
 | 시스템 및 개발 도구    | C                | 시스템 프로그래밍 언어.           | ✅
 | 시스템 및 개발 도구    | [Python](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/ENV/python.md)           | 범용 프로그래밍 언어.             | ✅
 | 시스템 및 개발 도구    | [Docker](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/ENV/Docker.md)           | 컨테이너 기반 가상화 도구.        | ✅
 | 시스템 및 개발 도구    | [VMware](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/ENV/VMware.md)            |	가상화 소프트웨어                    |✅
 | 시스템 및 개발 도구    | virtual box      | 	가상화 소프트웨어         |
-| 시스템 및 개발 도구    | [WSL](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/ENV/Docker.md)              | 	Windows 전용 리눅스 서브시스템       | ✅
+| 시스템 및 개발 도구    | [WSL](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/ENV/wsl.md)              | 	Windows 전용 리눅스 서브시스템       | ✅
 | 네트워크 도구         | [Shodan](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/NET/Shodan.md)           | 네트워크 장치 검색 도구.         | web | 
 | 네트워크 도구         | [Censys](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/NET/Censys.md)           | 공개 네트워크 검색 도구.         | web | 
 | 네트워크 도구         | Nmap             | 네트워크 포트 스캐너.            |  
@@ -27,10 +27,10 @@
 | 웹 테스트 도구      | [curl](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/WEB/curl.md)             | 명령줄 기반 HTTP 요청 도구                           |✅
 | 웹 테스트 도구      | sqlmap           | 	SQL 인젝션 자동화 도구              |                 
 | 웹 테스트 도구      | webhook          | 	웹훅 테스트 도구                               |web 
-| 암호화 도구         | [NumPy](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/Crypto/NumPy.md)            | 데이터 분석 라이브러리.           | ✅
+| 암호화 도구         | [NumPy](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/Crypto/Numpy.md)            | 데이터 분석 라이브러리.           | ✅
 | 암호화 도구         | [PyCryptodome](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/Crypto/PyCryptodome.md)     | 암호화 라이브러리.               | ✅
 | 암호화 도구         | [CyberChef](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/Crypto/CyberChef.md)        | 데이터 변환 도구.               |web | web
-| 리버스 엔지니어링    | [IDA](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/REV/IDA.md)              | 바이너리 분석 도구.                | ✅
+| 리버스 엔지니어링    | [IDA](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/REV/ida.md)              | 바이너리 분석 도구.                | ✅
 | 리버스 엔지니어링    | Ghidra           | 리버스 엔지니어링 도구.             | 
 | 리버스 엔지니어링    | 010 Editor       | 바이너리 편집기.                  |  
 | 리버스 엔지니어링    | [HxD](https://github.com/hspace-io/hacker-notebook-setup/blob/main/WINDOW/REV/HxD.md)              | 바이너리 편집기.                  | ✅
