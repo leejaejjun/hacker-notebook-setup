@@ -25,6 +25,8 @@ CyberChef는 다양한 데이터 분석 및 변환 작업을 지원하는 웹 �
 ## 정상 체크 화면
 CyberChef는 웹 기반 도구로, 브라우저에서 실행 시 아래와 같은 화면이 나타나면 정상 작동합니다:
 
+![접속 화면 설명](cyberchef.png)
+
 ```plaintext
 CyberChef
 The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis.
