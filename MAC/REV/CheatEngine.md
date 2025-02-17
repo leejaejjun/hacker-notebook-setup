@@ -17,7 +17,7 @@
 
 ## 접속 화면
 ![접속 화면 설명](CheatEngine.png)  
-![실행 화면](cheat.png)
+![실행 화면](Cheat.png)
 
 ## 주의 사항
 - Cheat Engine을 실행시킬 떄마다 비밀번호를 입력해줘야 합니다.
