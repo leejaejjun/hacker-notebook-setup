@@ -4,7 +4,7 @@
 VMware Workstation Player는 Windows 또는 Linux PC에서 단일 가상 머신(VM)을 실행할 수 있도록 해주는 데스크톱 가상화 애플리케이션입니다.  
 
 ## 설치 영역
-`/Applications/VMware Fusion.app`
+`/Applications/VMware_version.app`
 
 ## 사용처
 - **새로운 운영 체제 테스트:**  
